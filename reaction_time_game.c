@@ -12,7 +12,7 @@ void default_interface() {
     Sleep(500);
     printf("\n\tBy pressing H this helping menu will show up.\n");
     printf("\n\tPress F for entering free mode.\n");
-    printf("\n\tBy pressing ESP you'll leave the game.\n");
+    printf("\n\tBy pressing ESC you'll leave the game.\n");
     Sleep(500);
     printf("\n\tEnjoy :)\n");
     printf("\n\tPress any key for start or ESC for end: ");
@@ -20,7 +20,7 @@ void default_interface() {
 
 
 void level_select(){
-    printf("\n\n\tNow choose, level by pressing key 1 to %d.\n", _LEVELS_NUM);
+    printf("\n\n\tNow choose level by pressing key 1 to %d.\n", _LEVELS_NUM);
     printf("\tSelected amount of letters will show up in the middle\n");
     printf("\tof your screen and your job is to hit the keys ASAP.\n");
     printf("\n\tGLHF\n");
